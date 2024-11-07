@@ -1,0 +1,70 @@
+:root {
+    --title-color: #2E2F42;
+    --under-title-color: #434455;
+    --secondly-background-color: #f4f4fd;
+    --buttons-style-color: #4D5AE5;
+    --effective-background: #ffffff;
+    --hover-color: #404BBF;}
+
+.hero > .hero-title {
+    /* color: var(--effective-background); */
+    color: black;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1px;
+    text-align: center;
+
+}
+.site-facilities .title-facilities,
+ul .command{
+    color: var(--title-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.site-facilities .text,
+.text-command{
+    color: var(--under-title-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.site-facilities .text,
+.site-facilities .title-facilities{
+    text-align: left;
+}
+.text-command,
+.command  {
+    text-align: center;
+}
+.social-media .footer-social-media {
+    background-color: var(--buttons-style-color);
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+
+}
+.section-command {
+    background-color: var(--secondly-background-color);
+}
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+    background-color: var(--effective-background);
+}
+
+
+
+
+
+
+
+
+/* title  #2E2F42; */
+/* pod title  #434455; */
+/* вторичный backgr #f4f4fd */
+/* buttons background: #4D5AE5; */
+/* effective background: #FFFFFF; */

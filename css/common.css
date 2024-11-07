@@ -1,0 +1,65 @@
+ul{
+    list-style: none;
+}
+:root {
+    --title-color: #2E2F42;
+    --under-title-color: #434455;
+    --secondly-background-color: #f4f4fd;
+    --buttons-style-color: #4D5AE5;
+    --effective-background: #ffffff;
+    --hover-color: #404BBF;
+
+}
+.site-nav .link.current{
+    color: var(--hover-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.link {
+    color: var(--title-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+
+}
+.link:hover,:focus {
+    color: var(--hover-color);
+}
+
+.logo-header-color {
+    color: var(--buttons-style-color);
+    text-decoration: none;
+}
+.header-color {
+    color: var(--title-color);
+    text-decoration: none;
+}
+.button {
+    color: var(--effective-background);
+    background-color: var(--buttons-style-color);
+    text-decoration: none;
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+.footer {
+    background-color: var(--title-color);
+}
+.footer-studio {
+    color: var(--effective-background);
+    text-decoration: none;
+}
+.footer p {
+    color: var(--secondly-background-color);
+}
+.social-media {
+    color: var(--effective-background);
+}

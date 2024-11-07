@@ -1,0 +1,40 @@
+/* цвет для ссылок без ховера border: 1px solid ;
+ */
+ /* цвет для ссылок с ховером background: #FFFFFF;
+*/
+:root {
+    --without-hover-color: #E7E9FC;
+    --with-hover-color: #ffffff;
+}
+.button-portfolio {
+    color: var(--buttons-style-color);
+    background-color: var(--with-hover-color);
+    text-align: center;
+    
+}
+
+.button-portfolio:hover,:focus {
+    color: var(--with-hover-color);
+    background-color: var(--hover-color);
+}
+body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.example {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
